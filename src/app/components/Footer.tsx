@@ -23,13 +23,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="font-body text-sm text-text-secondary hover:text-gold-light transition-colors">
-                  X: @yuancoin
-                </a>
-              </li>
-              <li>
-                <a href="#" className="font-body text-sm text-text-secondary hover:text-gold-light transition-colors">
-                  {lang === "en" ? "Telegram: Bureau Communications" : "Telegram: 局通讯"}
+                <a href="https://x.com/chineseyuan_sol" target="_blank" rel="noopener noreferrer" className="font-body text-sm text-text-secondary hover:text-gold-light transition-colors">
+                  X: @chineseyuan_sol
                 </a>
               </li>
             </ul>
