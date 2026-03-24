@@ -44,10 +44,28 @@ const notoSerifSC = Noto_Serif_SC({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.global-yuan.fun"),
   title: "¥UAN — The New Global Reserve Currency",
   description:
     "An official communication from the Bureau of Monetary Destiny. The petrodollar is over. Long live the ¥uan.",
   openGraph: {
+    title: "¥UAN — The New Global Reserve Currency",
+    description:
+      "An official communication from the Bureau of Monetary Destiny. The petrodollar is over. Long live the ¥uan.",
+    url: "https://www.global-yuan.fun",
+    siteName: "Bureau of Monetary Destiny",
+    images: [
+      {
+        url: "/images/yuan-logo-square.jpeg",
+        width: 1200,
+        height: 1200,
+        alt: "¥UAN — The New Global Reserve Currency",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
     title: "¥UAN — The New Global Reserve Currency",
     description:
       "An official communication from the Bureau of Monetary Destiny. The petrodollar is over. Long live the ¥uan.",
