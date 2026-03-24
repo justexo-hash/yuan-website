@@ -7,7 +7,7 @@ import { useLang, t } from "./LanguageContext";
 export default function ContractSection() {
   const { lang } = useLang();
   const [copied, setCopied] = useState(false);
-  const contractAddress = "¥XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+  const contractAddress = "BXD5mvLKmKWbi5ykPYjHL8277VfSDRSF7GEpKtnwpump";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress);
