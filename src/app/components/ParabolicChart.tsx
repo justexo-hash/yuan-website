@@ -64,7 +64,6 @@ export default function ParabolicChart() {
 
   const xScale = (i: number) => padL + (i / (data.length - 1)) * innerW;
   const yScale = (v: number) => padT + innerH - ((v - minPrice) / (maxPrice - minPrice)) * (innerH - volH);
-  const volScale = (v: number) => padT + innerH - (v / maxVol) * volH;
 
   // Build the price line (using close prices)
   const linePath = data
